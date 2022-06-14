@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Fira+Sans:wght@300;400;500;900&family=Oleo+Script&family=Pacifico&family=Roboto+Condensed:wght@700&family=Ubuntu:wght@300;400;700&display=swap');
+.container{
+    top: 0;
+    z-index: 100;
+    height: 45px;
+    padding: 0px 50px;
+    background-color: #ce8e0d;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    font-family: work sans;
+    justify-content: space-between;
+
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+    color: white;
+}
+
+.signUpButton{
+    background-color: none;
+    border-style: solid;
+    border-color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.signUpButton:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+    transform: 4s;
+    color: rgb(206, 142, 13);
+
+}
+
+.loginButton{
+    margin-right: 7px;
+}
