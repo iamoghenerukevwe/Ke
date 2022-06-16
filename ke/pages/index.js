@@ -1,6 +1,10 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Nav from "../components/Nav"
+import Hero from "../components/Hero"
+import styles from '../styles/Home.module.css';
+
 
 export default function Home() {
   return (
@@ -11,7 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
+        <Nav/>
+        <Hero/>       
+          
     </div>
   )
 }

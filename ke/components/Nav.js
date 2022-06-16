@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/nav.module.css"
 
 const Nav = () => {
@@ -14,8 +15,10 @@ const Nav = () => {
       <a href="#">Sign In</a>
       </div>
       <div className={styles.signUpButton}>
-      <a href="#">Sign Up</a>
+      <Link href="/Signup">Sign Up</Link>
       </div>
+
+     
       </div>
     
     </div>
