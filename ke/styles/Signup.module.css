@@ -3,6 +3,7 @@
     background-color: #ce8e0d;
     height: 100vh;
     width: 100%;
+    font-family: Fira Sans;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,10 +29,10 @@
     border-radius: 15px 0 0 15px;
 }
 .logo{
-    width:70px;
-    height:40px;
-    background-color: #ce8e0d;
-    display: row;
+    width: 50px;
+    height:50px;
+    background-color: blue;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -48,15 +49,38 @@
 
 .second{
     width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     margin-bottom: 9%;
     border-radius: 7px;
-    background-color: rgb(237, 242, 207);
+    background-color: rgb(243, 243, 253);
      
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.icon2{
+    height: 45px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
 }
 
 .second:hover{
-    background-color: #ce8e0d;
+    background-color: #d5e6f6;
 }
 
 .third{
@@ -72,7 +96,9 @@
 
 .fourth{
     width: 70%;
-    padding: 10px;
+    padding: 3px;
+    color:white;
+    font-family: Fira Sans;
     margin-top: 10%;
     margin-bottom: 3%;
     border-radius: 7px;
@@ -81,7 +107,10 @@
     align-items: center;
     vertical-align: center;
     align-content: center;
-    background-color: rgb(237, 242, 207);
+    background-color: blue;
+}
+.fourth:hover{
+    
 }
 .img{
     width: 55%;

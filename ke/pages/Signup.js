@@ -12,7 +12,7 @@ const Signup  = ()=> {
                 <div className={styles.sign}>
 
                 <div className={styles.logo}>
-                <Image src="/assets/site.png" alt="" width="60" height="26" />
+                <Image src="/assets/site.png" alt="" width="30" height="30" />
                 </div>
 
                     <div className={styles.first}>
@@ -21,7 +21,8 @@ const Signup  = ()=> {
 
 
                     <div className={styles.second}>
-                        <a href="#" ><FcGoogle/>Sign in with Google</a>
+                        <div className={styles.icon}><FcGoogle/></div>
+                        <a href="#" >Sign in with Google</a>
                     </div>
                     
                     Or Sign-in with your email
@@ -35,7 +36,9 @@ const Signup  = ()=> {
                     </div>
 
                    <div className={styles.fourth}>
-                        <a href="#">Sign in<IoEnterOutline size={30}/></a> 
+                        
+                        <a href="#">Sign in</a> 
+                        <div className={styles.icon2}><IoEnterOutline size={30}/></div>
                    </div>
 
 
