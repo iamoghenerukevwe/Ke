@@ -1,5 +1,6 @@
 import styles from   "../styles/Signup.module.css"
 import Image from "next/image";
+import Link from "next/link";
 import { FcGoogle } from 'react-icons/fc';
 import { IoEnterOutline } from 'react-icons/io5';
 
@@ -37,7 +38,7 @@ const Signup  = ()=> {
 
                    <div className={styles.fourth}>
                         
-                        <a href="#">Sign in</a> 
+                   <Link href="/Search">Sign In</Link>
                         <div className={styles.icon2}><IoEnterOutline size={30}/></div>
                    </div>
 

@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Ke</title>
         <meta name="description" content="Share your apartments" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/site.png"/>
       </Head>
 
         <Nav/>

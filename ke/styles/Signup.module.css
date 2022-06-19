@@ -42,7 +42,7 @@
 .first{
     font-size: 24px;
     font-family: Fira Sans;
-    font-weight: 900;
+    font-weight: 500;
     width: 100%;
     margin-bottom: 7%;
 }
@@ -56,6 +56,7 @@
     margin-bottom: 9%;
     border-radius: 7px;
     background-color: rgb(243, 243, 253);
+    transition: all 1s ease-in-out;
      
 }
 .icon{
@@ -76,7 +77,6 @@
     justify-content: center;
     align-items: center;
     margin-left: 5px;
-    color: white;
 }
 
 .second:hover{
@@ -108,10 +108,15 @@
     vertical-align: center;
     align-content: center;
     background-color: blue;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s ease-in-out;
 }
 .fourth:hover{
-    
+    background-color: #d5e6f6;
+    color: black;
 }
+
 .img{
     width: 55%;
     background-image: url("../public/assets/vector.jpg");

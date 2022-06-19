@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/nav.module.css"
+import styles from "../styles/property.module.css"
 
-const Nav = () => {
+const Property = () => {
   return (
     <div className={styles.container}>
 
@@ -25,4 +25,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Property
