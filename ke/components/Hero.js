@@ -19,7 +19,7 @@ const Hero = () => {
           <div className={styles.all}>
             <input type="text" className={styles.fname} name="firstname" placeholder="Location"></input>
             <div className={styles.ctab}>
-            <a href="#"><span>Get Started</span></a>
+            <a href="/Signup"><span>Get Started</span></a>
           </div>
         </div>
           
